@@ -1,12 +1,9 @@
-import { Container } from '@chakra-ui/react';
+import React from 'react';
 import type { NextPage } from 'next';
+import { Heading } from '@chakra-ui/react';
 
 const Home: NextPage = () => {
-  return (
-    <Container>
-      <h1>Hola mundo!</h1>
-    </Container>
-  );
+  return <Heading variant={'title-section'}>Hola mundo!</Heading>;
 };
 
 export default Home;
